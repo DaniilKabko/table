@@ -63,7 +63,7 @@ tfoot tr:nth-child(odd) :nth-child(odd) {
 }
 
 tbody tr:nth-child(even) td:nth-child(even) {
-  background-color: #f3f3f3;
+   background-color: #f3f3f3;
 }
 
 th p:first-child {
@@ -95,6 +95,7 @@ button {
 
 button:focus {
   position: relative;
+  display: inline-block;
   bottom: 3px;
   box-shadow: 0 0 5px black;
   outline: none;
